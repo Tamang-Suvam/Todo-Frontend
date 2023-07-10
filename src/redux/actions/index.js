@@ -2,7 +2,8 @@ import axios from 'axios'
 
 import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE_TAB } from './type'
 // Backend server running port
-const API_URL = "http://localhost:8000"
+// const API_URL = "http://localhost:8000"
+const API_URL = "https://todoappbackend-l07q.onrender.com"
 
 export const addNewTodo = (data) => async (dispatch) => {
   try {
